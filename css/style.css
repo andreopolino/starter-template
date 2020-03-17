@@ -1,0 +1,92 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+nav{
+	background-color: #e8e8e8;
+	height: 100px;
+}
+.nav-wrapper{
+	padding: 0 50px;
+}
+
+nav img{
+	padding: 0 10px;
+	height: 90px;
+}
+
+.section-intro {
+	height: 1100%;
+	width: 100%;
+}
+
+}
+footer .footer-copyright{
+	background-color: #BFBFBF;	
+}
+
+nav ul a:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header{
+	margin-top: 15% ;
+}
+
+.row-2{
+	margin-top: 0%;
+}
+
+.col-servizio{
+	margin-top: 60px;
+	margin-bottom: 100px;
+	border-top: groove;
+}
+
+#servizio h5{
+	font-size: 1.6em;
+	line-height: 1.1em;
+}
+
+#contatti{
+	border-top: groove;
+}
+
+#richieste h4{
+	color: #03A9F4;
+}
+
+.richieste-icon{
+	font-size: 2.5em;
+}
+
+footer.page-footer{
+	background-color: #BFBFBF;	
+}
+
+.social-icon{
+	color: #03a9f4;
+	font-size: 1.5em;
+	padding:0 10px 0 0 ;
+}
+
+.social-icon:hover{
+	color:orange;
+}
+
+@media only screen and (max-width: 600px){
+	.nav-wrapper{
+	padding: 0 10px;
+	}
+} 
